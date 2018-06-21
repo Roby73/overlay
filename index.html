@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TEST POPUP OVERLAY FRAMESETS</title>
+        <!-- <link rel="stylesheet" type="text/css" href="css/style_not_for_overlay.css"> -->
+        <script type="text/javascript" src="js/overlay.js"></script>
+    </head>
+    <frameset rows = "15%,70%,15%" border="2" id="topFrameSet" >
+        <frame name="header" id="header" src="header.html"></frame>
+        <frameset cols="85%,15%">
+            <frame name="main" id="main" src="main.html"></frame>
+            <frame name="menu" id="menu" src="menu.html"></frame>
+        </frameset>
+        <frame name="footer" id="footer" src="footer.html"></frame>
+    </frameset>
+    <noframes>
+        <body>Your browser does not support frames.</body>
+    </noframes>
+</html>
