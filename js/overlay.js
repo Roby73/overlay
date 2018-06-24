@@ -50,7 +50,6 @@ function overlayAll(enable, alert) {
  * @param {boolean} action 
  */
 function overlay( action ) {
-    alert("aaa");
     if ( !action ) {
         // overlay all frames
         addDivOverlay( getItem("header","header") );
