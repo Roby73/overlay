@@ -17,12 +17,13 @@ For this, follow the following step:
 
 you can see something as:
 
-Starting up http-server, serving ./
+```Starting up http-server, serving ./
 Available on:
   http://192.168.56.1:8080
   http://192.168.1.19:8080
   http://127.0.0.1:8080
 Hit CTRL-C to stop the server
+```
 
 5) use a browser and go to one of the shown url.
 
